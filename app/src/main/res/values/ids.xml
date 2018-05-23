@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main Activity-->
+    <item name="viewpager_main" type="id"/>
+    <item name="drawer_layout" type="id"/>
+    <item name="nav_drawer_blankspace" type="id"/>
+    <item name="navigation_listing" type="id"/>
+
+    <!--Nav Drawer-->
+    <item name="iv_user_icon" type="id"/>
+    <item name="tv_user_name" type="id"/>
+    <item name="nav_separator" type="id"/>
+    <item name="tv_faq" type="id"/>
+    <item name="nav_separator_bot" type="id"/>
+    <item name="tv_exit_app" type="id"/>
+    <item name="tv_logs" type="id"/>
+
+    <!--Top Coins-->
+    <item name="tv_item_listing_rank" type="id"/>
+    <item name="tv_item_listing_symbol" type="id"/>
+    <item name="tv_item_listing_name" type="id"/>
+    <item name="tv_item_listing_price" type="id"/>
+    <item name="tv_listing_rank_label" type="id"/>
+    <item name="tv_listing_symbol_label" type="id"/>
+    <item name="tv_listing_name_label" type="id"/>
+    <item name="tv_listing_price_label" type="id"/>
+    <item name="layout_listing_label_bar" type="id"/>
+    <item name="rv_listing" type="id"/>
+    <item name="swipe_refresh_listing_general" type="id"/>
+    <item name="iv_pricechange_arrow" type="id"/>
+
+    <!--Followed-->
+    <item name="tv_followed_rank_label" type="id"/>
+    <item name="tv_followed_symbol_label" type="id"/>
+    <item name="tv_followed_name_label" type="id"/>
+    <item name="tv_followed_price_label" type="id"/>
+    <item name="btn_followed_clear" type="id"/>
+    <item name="rv_followed" type="id"/>
+    <item name="tv_item_following_rank" type="id"/>
+    <item name="tv_item_following_symbol" type="id"/>
+    <item name="tv_item_following_price" type="id"/>
+    <item name="tv_item_following_change24" type="id"/>
+    <item name="iv_item_following_change24" type="id"/>
+    <item name="iv_item_following_followunfollow" type="id"/>
+    <item name="tv_item_following_change7d" type="id"/>
+    <item name="iv_item_following_change7d" type="id"/>
+    <item name="tv_followed_change24_label" type="id"/>
+    <item name="tv_followed_change7d_label" type="id"/>
+
+    <!--Search-->
+    <item name="container_search" type="id"/>
+    <item name="et_search_input" type="id"/>
+    <item name="iv_search_input" type="id"/>
+    <item name="layout_search_input" type="id"/>
+    <item name="rv_search_main" type="id"/>
+    <item name="tv_item_search_id" type="id"/>
+    <item name="tv_item_search_symbol" type="id"/>
+    <item name="tv_item_search_name" type="id"/>
+    <item name="tv_item_search_url" type="id"/>
+
+    <!--Coin Details-->
+    <item name="tv_detail_symbol" type="id"/>
+    <item name="tv_detail_name" type="id"/>
+    <item name="tv_detail_rank" type="id"/>
+    <item name="tv_detail_price_label" type="id"/>
+    <item name="tv_detail_price" type="id"/>
+    <item name="tv_detail_marketcap_label" type="id"/>
+    <item name="tv_detail_1hr_change_label" type="id"/>
+    <item name="tv_detail_1hr_change" type="id"/>
+    <item name="tv_detail_marketcap" type="id"/>
+    <item name="iv_detail_1hr_change" type="id"/>
+    <item name="tv_detail_24hr_change_label" type="id"/>
+    <item name="tv_detail_24hr_change" type="id"/>
+    <item name="iv_detail_24hr_change" type="id"/>
+    <item name="tv_detail_7d_change_label" type="id"/>
+    <item name="tv_detail_7d_change" type="id"/>
+    <item name="iv_detail_7d_change" type="id"/>
+    <item name="tv_detail_change_label" type="id"/>
+    <item name="tv_detail_container_coininfo" type="id"/>
+    <item name="tv_detail_symbol_label" type="id"/>
+    <item name="tv_detail_rank_label" type="id"/>
+    <item name="tv_detail_container_price" type="id"/>
+    <item name="tv_detail_price_currency" type="id"/>
+    <item name="tv_detail_container_change" type="id"/>
+    <item name="gl_list_detail_container_40" type="id"/>
+    <item name="gl_list_detail_container_60" type="id"/>
+    <item name="tv_detail_volume" type="id"/>
+    <item name="tv_detail_volume_label" type="id"/>
+    <item name="tv_detail_container_supply" type="id"/>
+    <item name="gl_supply_start" type="id"/>
+    <item name="tv_detail_total_supply" type="id"/>
+    <item name="tv_detail_total_supply_label" type="id"/>
+    <item name="tv_detail_circulating_supply" type="id"/>
+    <item name="tv_detail_circulating_supply_label" type="id"/>
+    <item name="tv_detail_max_supply" type="id"/>
+    <item name="tv_detail_max_supply_label" type="id"/>
+    <item name="tv_detail_supply_label" type="id"/>
+    <item name="v_detail_supply_separator" type="id"/>
+    <item name="btn_detail_follow" type="id"/>
+    <item name="tv_log_dismiss" type="id"/>
+    <item name="tv_log_data" type="id"/>
+    <item name="tv_log_clear" type="id"/>
+
+</resources>

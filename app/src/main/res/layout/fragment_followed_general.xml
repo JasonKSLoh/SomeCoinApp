@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/swipe_refresh_listing_general"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.constraint.ConstraintLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@id/layout_listing_label_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp">
+
+            <TextView
+                android:id="@id/tv_followed_rank_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/following_general_text_size"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.10"
+                />
+            <!--android:text="@string/rank"-->
+
+            <TextView
+                android:id="@id/tv_followed_symbol_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/symbol"
+                android:textSize="@dimen/following_general_text_size"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/tv_followed_rank_label"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.15"
+                />
+
+            <TextView
+                android:id="@id/tv_followed_price_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textSize="@dimen/following_general_text_size"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/tv_followed_symbol_label"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.25"/>
+
+            <TextView
+                android:id="@id/tv_followed_change24_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="24h ±(%) "
+                android:textSize="@dimen/following_general_text_size"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/tv_followed_price_label"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.2"/>
+
+            <TextView
+                android:id="@id/tv_followed_change7d_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="7d ±(%)"
+                android:textSize="@dimen/following_general_text_size"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/tv_followed_change24_label"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.20"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@id/rv_followed"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/btn_followed_clear"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_listing_label_bar">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@id/btn_followed_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/material_red_400"
+            android:padding="8dp"
+            android:text="@string/clear_followed"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@id/tv_item_following_rank"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.1"
+        android:textStyle="bold"
+        android:textSize="@dimen/following_general_text_size"
+        tools:text="1"
+        />
+    <TextView
+        android:id="@id/tv_item_following_symbol"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_following_rank"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.15"
+        android:textSize="@dimen/following_general_text_size"
+        android:textStyle="bold"
+        tools:text="BTC"
+        />
+
+
+    <TextView
+        android:id="@id/tv_item_following_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_following_symbol"
+        android:textSize="@dimen/following_general_text_size"
+        tools:text="642.339"/>
+    <TextView
+        android:id="@id/tv_item_following_change24"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_following_price"
+        android:gravity="right"
+        android:textSize="@dimen/following_general_text_size"
+        tools:text="3.41"/>
+    <ImageView
+        android:id="@id/iv_item_following_change24"
+        android:contentDescription="@string/cd_iv_pricechange_arrow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.05"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_following_change24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:src="@drawable/ic_arrow_drop_up_black_24dp"/>
+
+    <TextView
+        android:id="@id/tv_item_following_change7d"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/iv_item_following_change24"
+        android:gravity="right"
+        android:textSize="@dimen/following_general_text_size"
+        tools:text="3.41"/>
+    <ImageView
+        android:id="@id/iv_item_following_change7d"
+        android:contentDescription="@string/cd_iv_pricechange_arrow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.05"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_following_change7d"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:src="@drawable/ic_arrow_drop_up_black_24dp"/>
+
+    <ImageView
+        android:id="@id/iv_item_following_followunfollow"
+        android:contentDescription="@string/selector_for_follow_unfollow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="W, 1"
+        app:layout_constraintWidth_percent="0.10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:src="@drawable/ic_unfollow_24dp"
+        />
+
+</android.support.constraint.ConstraintLayout>
